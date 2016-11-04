@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ERIC6</Machine>
+    <WindowsUser>Ericsson6</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows Phone 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>680bf85f-b66a-467a-b2d1-dd52b6bac320</PackageIdentityName>
+    <PackageIdentityPublisher>CN=Ericsson6</PackageIdentityPublisher>
+    <IntermediateOutputPath>c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\NoteApp.exe">
+      <PackagePath>NoteApp.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\NoteApp.exe.config">
+      <PackagePath>NoteApp.exe.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\Json.NET.Web.1.0.49\lib\portable45-net45+win8+wpa81\Json.NET.Web.dll">
+      <PackagePath>Json.NET.Web.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\Microsoft.Bcl.Async.1.0.168\lib\wpa81\Microsoft.Threading.Tasks.dll">
+      <PackagePath>Microsoft.Threading.Tasks.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\Microsoft.Bcl.Async.1.0.168\lib\wpa81\Microsoft.Threading.Tasks.Extensions.dll">
+      <PackagePath>Microsoft.Threading.Tasks.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\Newtonsoft.Json.8.0.3\lib\portable-net45+wp80+win8+wpa81+dnxcore50\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\PortableRest.3.0.1\lib\portable-net45+sl5+wp8+win8+wpa81+MonoTouch1+MonoAndroid1\PortableRest.dll">
+      <PackagePath>PortableRest.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\Microsoft.Net.Http.2.2.22\lib\wpa81\System.Net.Http.Extensions.dll">
+      <PackagePath>System.Net.Http.Extensions.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\packages\Microsoft.Net.Http.2.2.22\lib\wpa81\System.Net.Http.Primitives.dll">
+      <PackagePath>System.Net.Http.Primitives.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\noteapp_icon.png">
+      <PackagePath>Assets\noteapp_icon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\NoteApp.xr.xml">
+      <PackagePath>NoteApp.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\AdNote.xbf">
+      <PackagePath>AdNote.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\NoteDetail.xbf">
+      <PackagePath>NoteDetail.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\NotesMap.xbf">
+      <PackagePath>NotesMap.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="c:\users\ericsson6\documents\visual studio 2015\Projects\NoteApp\NoteApp\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

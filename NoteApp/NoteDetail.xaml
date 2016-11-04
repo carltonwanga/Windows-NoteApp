@@ -1,0 +1,23 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NoteApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="NoteApp.NoteDetail"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="#FFEFF3F3">
+        <TextBlock x:Name="tbTitle" HorizontalAlignment="Left" Margin="19,42,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="39" Width="318" FontSize="36" SelectionHighlightColor="White" Foreground="#FF82C7C7" SelectionChanged="tbTitle_SelectionChanged"/>
+        <TextBlock x:Name="tbContent" HorizontalAlignment="Left" Margin="23,92,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="253" Width="355" FontSize="20" Foreground="Black" SelectionHighlightColor="#FF3AB060"/>
+        <TextBlock x:Name="lbLat" HorizontalAlignment="Left" Margin="39,353,0,0" TextWrapping="Wrap" Text="Latitude:" VerticalAlignment="Top" Height="27" Width="80" FontSize="20" Foreground="Black"/>
+        <TextBlock x:Name="lblLong" HorizontalAlignment="Left" Margin="42,387,0,0" TextWrapping="Wrap" Text="Longitude:" VerticalAlignment="Top" Height="23" Width="110" FontSize="20" Foreground="Black" SelectionChanged="lblLong_SelectionChanged"/>
+        <TextBlock x:Name="tbLat" HorizontalAlignment="Left" Margin="166,357,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="23" Width="228" Foreground="Black" FontSize="18"/>
+        <TextBlock x:Name="tbLong" HorizontalAlignment="Left" Margin="170,388,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="214" Foreground="Black" SelectionChanged="tbLong_SelectionChanged" FontSize="18"/>
+
+        <Maps:MapControl x:Name="DetailMap" HorizontalAlignment="Left" Margin="2,410,0,0" VerticalAlignment="Top" Width="394" Height="227" MapServiceToken="AoTPt5uBbNXnxt5oWHPDsz5HUjjlS5wdef4RLl9QVipLeKCNyCx1tJfVTp-0aX6J"/>
+
+    </Grid>
+</Page>
